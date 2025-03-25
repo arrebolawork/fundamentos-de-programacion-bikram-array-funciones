@@ -95,6 +95,56 @@ function eliminarDuplicados(array) {
   return array.filter((elemento, index) => array.indexOf(elemento) === index);
 }
 
+//ejercicio 15
+let arrayNumerosNeg = [0, -1, -2, -3, -4, -5, -6, -7, -8, -9];
+
+//ejercicio 16
+let holaMundo = ["Hola", "Mundo"];
+
+//ejercicio 17
+let loGuardoTodo = ["hola", "que", 23, 42.33, "tal"];
+
+//ejercicio 18
+let arrayDeArrays = [
+  [756, "nombre"],
+  [225, "apellido"],
+  [298, "direccion"],
+];
+
+//ejercicio 19
+function multiplicacion(param1, param2) {
+  return param1 * param2;
+}
+
+//ejercicio 20
+function division(dividendo, divisor) {
+  return dividendo / divisor;
+}
+
+//ejercicio 21
+function esPar(numero) {
+  if (typeof numero !== "number") return false;
+  return numero % 2 === 0;
+}
+
+//ejercicio 22
+let arrayFunciones = [multiplicacion, suma, division];
+//console.log(arrayFunciones[0](param1,param2)) haría la multiplicación
+//console.log(arrayFunciones[1](param1,param2)) haría la suma
+//console.log(arrayFunciones[2](param1,param2)) haría la división
+
+//ejercicio 23
+function ordenarArrays(arrayNums) {
+  return arrayNums.sort((a, b) => b - a);
+}
+//console.log(ordenarArrays(arrayNumeros));
+
+//ejercicio 24
+function obtenerImpares(array) {
+  const impares = array.filter((num) => num % 2 !== 0);
+  return impares;
+}
+
 //ejercico 25
 
 function sumarArray(array) {
