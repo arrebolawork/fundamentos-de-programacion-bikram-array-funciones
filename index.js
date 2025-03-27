@@ -72,9 +72,9 @@ function obtenerPares(array) {
 
 //ejercicio 12
 //no entendi que es lo que realmente se pide
-// function pintarArray(array) {
-//   return `[${array.join(", ")}]`;
-// }
+function pintarArray(array) {
+  return `[${array.join(", ")}]`;
+}
 
 // console.log(pintarArray([1, 2, 3, 4, 5]));
 
@@ -128,13 +128,13 @@ function esPar(numero) {
 }
 
 //ejercicio 22
-let arrayFunciones = [multiplicacion, suma, division];
-//console.log(arrayFunciones[0](param1,param2)) haría la multiplicación
-//console.log(arrayFunciones[1](param1,param2)) haría la suma
-//console.log(arrayFunciones[2](param1,param2)) haría la división
+let arrayFunciones = [suma, resta, multiplicacion];
+arrayFunciones[0](param1, param2);
+arrayFunciones[1](param1, param2);
+arrayFunciones[2](param1, param2);
 
 //ejercicio 23
-function ordenarArrays(arrayNums) {
+function ordenarArray2(arrayNums) {
   return arrayNums.sort((a, b) => b - a);
 }
 //console.log(ordenarArrays(arrayNumeros));
